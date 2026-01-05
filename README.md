@@ -6,7 +6,7 @@ Built with a strong focus on performance, clean UI, animations, and user experie
 ---
 
 ## 🌐 Live Demo
-🔗 https://seebibhai.github.io/your-repo-name/
+🔗 https://seebibhai.github.io/My-Portfolio/
 
 ---
 
