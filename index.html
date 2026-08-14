@@ -205,7 +205,7 @@
       x-transition:enter-start="opacity-0 -translate-y-5" x-transition:enter-end="opacity-100 translate-y-0"
       x-transition:leave="transition ease-in duration-400" x-transition:leave-start="opacity-100 translate-y-0"
       x-transition:leave-end="opacity-0 -translate-y-5"
-      class="md:hidden bg-[#111111] px-6 py-6 space-y-5 text-center text-base font-medium">
+      class="md:hidden bg-bg px-6 py-6 space-y-5 text-center text-base font-medium">
       <template x-for="link in ['Home', 'Skills', 'About', 'Projects', 'Services', 'Contact']" :key="link">
         <a :href="'#' + link.toLowerCase()"
           :class="activeSection === link.toLowerCase() ? 'text-[#FEB21A]' : 'text-white'"
@@ -422,7 +422,7 @@
                 Bachelor of Computer Science
               </h4>
               <p class="mb-2 text-sm text-gray-400">
-                Islamia University of BWP • Sep 2022 - Present
+                Islamia University of BWP • Sep 2022 - May 2026
               </p>
               <p class="text-base text-gray-300">
                 Creating and testing interactive web pages as part of my computer science studies.
@@ -452,19 +452,19 @@
           <div class="space-y-10">
             <div class="relative pl-6 border-l-4 border-accent" data-aos="fade-up" data-aos-delay="100">
               <div class="absolute -left-[10px] top-0 w-5 h-5 bg-accent rounded-full"></div>
-              <h4 class="text-2xl font-semibold">Frontend Developer</h4>
+              <h4 class="text-2xl font-semibold">AI Web Developer</h4>
               <p class="mb-2 text-sm text-gray-400">
-                MarkDev. , BWP  • Agu 2025 - Present
+                MarkDev. , BWP  • Agu 2025 - May 2026
               </p>
               <p class="text-base text-gray-300">
-                Developed and maintained dynamic websites and dashboards using
-                React, Tailwind CSS, and RESTful APIs with performance and UX
+                Developed and maintained dynamic and AI-powered websites and dashboards using
+                React, Tailwind CSS, and RESTful APIs and UX
                 in focus.
               </p>
             </div>
             <div class="relative pl-6 border-l-4 border-accent" data-aos="fade-up" data-aos-delay="200">
               <div class="absolute -left-[10px] top-0 w-5 h-5 bg-accent rounded-full"></div>
-              <h4 class="text-2xl font-semibold">Intern - Web Development</h4>
+              <h4 class="text-2xl font-semibold">Trainee - Web Development</h4>
               <p class="mb-2 text-sm text-gray-400">
                 PCI Learning Institute , Lahore • Jun 2023 - July 2024
               </p>
@@ -543,7 +543,7 @@
           class="relative group bg-black/30 backdrop-blur-md border border-gray-700 p-6 rounded-2xl transition-all hover:shadow-2xl hover:scale-[1.02] duration-300"
           data-aos="zoom-in-up" data-aos-delay="100">
           <div class="relative mb-6 overflow-hidden rounded-xl">
-            <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80"
+            <img src="./assets/images/ai-interview-simulator.png"
               alt="Project Image"
               class="object-cover w-full h-48 transition-transform duration-500 group-hover:scale-105 rounded-xl" />
             <div class="absolute inset-0 transition-opacity duration-300 opacity-0 bg-black/40 group-hover:opacity-100">
@@ -551,11 +551,10 @@
           </div>
 
           <h3 class="mb-2 text-xl font-bold text-white">
-            Startup Landing Page
+            Ai Interview Simulator
           </h3>
           <p class="mb-4 text-sm text-gray-400">
-            SEO-optimized responsive site for SaaS startup with React +
-            Tailwind.
+            AI conducts a real interview using voice/text, evaluates answers, confidence, technical knowledge, and gives a score.
           </p>
 
           <div class="flex flex-wrap gap-2 mb-5 text-xs">
@@ -563,13 +562,19 @@
               React
             </span>
             <span class="px-3 py-1 rounded-full bg-accent/10 text-accent">
-              Tailwind
+              MongoDB
+            </span>
+            <span class="px-3 py-1 rounded-full bg-accent/10 text-accent">
+              Node.js
+            </span>
+            <span class="px-3 py-1 rounded-full bg-accent/10 text-accent">
+              Express.js
             </span>
           </div>
 
           <div class="flex items-center justify-between text-sm font-medium">
-            <a  href="https://github.com/seebibhai" target="_blank" class="transition-all text-accent hover:underline">Live Demo →</a>
-            <a  href="https://github.com/seebibhai" target="_blank" class="text-gray-400 transition-all hover:text-white">GitHub</a>
+            <a  href="https://ai-interview-simulator-henna-nine.vercel.app/" target="_blank" class="transition-all text-accent hover:underline">Live Demo →</a>
+            <a  href="https://github.com/seebibhai/AI-Interview-Simulator" target="_blank" class="text-gray-400 transition-all hover:text-white">GitHub</a>
           </div>
         </div>
 
@@ -578,31 +583,36 @@
           class="relative group bg-black/30 backdrop-blur-md border border-gray-700 p-6 rounded-2xl transition-all hover:shadow-2xl hover:scale-[1.02] duration-300"
           data-aos="zoom-in-up" data-aos-delay="200">
           <div class="relative mb-6 overflow-hidden rounded-xl">
-            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80"
+            <img src="./assets/images/ai-website-doctor.png"
               alt="Project Image"
               class="object-cover w-full h-48 transition-transform duration-500 group-hover:scale-105 rounded-xl" />
             <div class="absolute inset-0 transition-opacity duration-300 opacity-0 bg-black/40 group-hover:opacity-100">
             </div>
           </div>
 
-          <h3 class="mb-2 text-xl font-bold text-white">Admin Dashboard</h3>
+          <h3 class="mb-2 text-xl font-bold text-white">AI Website Doctor</h3>
           <p class="mb-4 text-sm text-gray-400">
-            Admin panel with charts, stats, and responsive layout using
-            Chart.js.
+            Enter a website URL → AI analyzes UI, performance, accessibility, SEO, and gives a repair plan.
           </p>
 
           <div class="flex flex-wrap gap-2 mb-5 text-xs">
             <span class="px-3 py-1 rounded-full bg-accent/10 text-accent">
-              JavaScript
+              React
             </span>
             <span class="px-3 py-1 rounded-full bg-accent/10 text-accent">
-              Chart.js
+              MongoDB
+            </span>
+            <span class="px-3 py-1 rounded-full bg-accent/10 text-accent">
+              Node.js
+            </span>
+            <span class="px-3 py-1 rounded-full bg-accent/10 text-accent">
+              Express.js
             </span>
           </div>
 
           <div class="flex items-center justify-between text-sm font-medium">
-            <a  href="https://github.com/seebibhai" target="_blank" class="transition-all text-accent hover:underline">Live Demo →</a>
-            <a  href="https://github.com/seebibhai" target="_blank" class="text-gray-400 transition-all hover:text-white">GitHub</a>
+            <a  href="https://ai-website-doctor-xi.vercel.app/" target="_blank" class="transition-all text-accent hover:underline">Live Demo →</a>
+            <a  href="https://github.com/seebibhai/Ai-Website-Doctor" target="_blank" class="text-gray-400 transition-all hover:text-white">GitHub</a>
           </div>
         </div>
       </div>
